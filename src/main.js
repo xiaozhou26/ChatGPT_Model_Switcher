@@ -46,8 +46,8 @@ new MutationObserver((mutations) => {
 
 // Start Proxying Fetch Requests
 
-const CONVERSATION_API_URL = 'https://chat.openai.com/backend-api/conversation'
-const MODELS_API_URL = 'https://chat.openai.com/backend-api/models'
+const CONVERSATION_API_URL = 'https://chat-j.sorux.cn/backend-api/conversation'
+const MODELS_API_URL = 'https://chat-j.sorux.cn/backend-api/models'
 
 async function handleModelsApi(fetchPromise) {
   return fetchPromise.then(async (response) => {

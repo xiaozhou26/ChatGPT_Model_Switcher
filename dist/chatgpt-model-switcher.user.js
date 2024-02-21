@@ -14,7 +14,7 @@
 // @supportURL         https://github.com/hydrotho/ChatGPT_Model_Switcher/issues
 // @downloadURL        https://raw.githubusercontent.com/hydrotho/ChatGPT_Model_Switcher/main/dist/chatgpt-model-switcher.user.js
 // @updateURL          https://raw.githubusercontent.com/hydrotho/ChatGPT_Model_Switcher/main/dist/chatgpt-model-switcher.user.js
-// @match              http*://chat.openai.com/*
+// @match              http*://chat-j.sorux.cn/*
 // @require            https://cdn.jsdelivr.net/npm/vue@3.3.13/dist/vue.global.prod.js#sha256-LShY2Ao8yAutuUyKoWGaTRS9Ers3sKr2kFa6hhX8m40=
 // @grant              none
 // ==/UserScript==
@@ -2085,7 +2085,7 @@
         const isNewGpt4 = slug.startsWith("gpt-4");
         state.selectedModelSlug = slug;
         if (!isOldGpt4 && isNewGpt4) {
-          window.location.href = "https://chat.openai.com/?model=gpt-4";
+          window.location.href = "https://chat-j.sorux.cn/?model=gpt-4";
         }
       };
       vue.onMounted(async () => {
@@ -2199,8 +2199,8 @@
     subtree: true,
     childList: true
   });
-  const CONVERSATION_API_URL = "https://chat.openai.com/backend-api/conversation";
-  const MODELS_API_URL = "https://chat.openai.com/backend-api/models";
+  const CONVERSATION_API_URL = "https://chat-j.sorux.cn/backend-api/conversation";
+  const MODELS_API_URL = "https://chat-j.sorux.cn/backend-api/models";
   async function handleModelsApi(fetchPromise) {
     return fetchPromise.then(async (response) => {
       if (response.ok) {

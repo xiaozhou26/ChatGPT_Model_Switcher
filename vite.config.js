@@ -35,7 +35,7 @@ export default defineConfig({
         })(),
         grant: ['none'],
         author: 'Hydrotho',
-        match: ['http*://chat.openai.com/*'],
+        match: ['http*://chat-j.sorux.cn/*'],
         updateURL:
           'https://raw.githubusercontent.com/hydrotho/ChatGPT_Model_Switcher/main/dist/chatgpt-model-switcher.user.js',
         downloadURL:

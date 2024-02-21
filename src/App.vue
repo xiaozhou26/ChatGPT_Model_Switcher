@@ -30,7 +30,7 @@ const selectModel = (slug) => {
   state.selectedModelSlug = slug
 
   if (!isOldGpt4 && isNewGpt4) {
-    window.location.href = 'https://chat.openai.com/?model=gpt-4'
+    window.location.href = 'https://chat-j.sorux.cn/?model=gpt-4'
   }
 }
 

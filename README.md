@@ -16,7 +16,7 @@ ChatGPT Model Switcher is a user script that allows users to use the GPT-4 Mobil
 
 1. Install a user script manager, such as [Tampermonkey](https://www.tampermonkey.net/).
 2. Click [here](https://raw.githubusercontent.com/hydrotho/ChatGPT_Model_Switcher/main/dist/chatgpt-model-switcher.user.js) to install the script.
-3. Once installed, visit [ChatGPT](https://chat.openai.com/) and enjoy using the GPT-4 Mobile model with the "ChatGPT Model Switcher"!
+3. Once installed, visit [ChatGPT](https://chat-j.sorux.cn/) and enjoy using the GPT-4 Mobile model with the "ChatGPT Model Switcher"!
 
 ## Usage
 
